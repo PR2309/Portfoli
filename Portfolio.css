@@ -1,22 +1,32 @@
-
 *{
     text-align: center;
     margin: 1px;
     padding: 1px;
     box-sizing: border-box;
-    text-decoration: none;
-}
-.profile_image{
-    border-radius: 80%;
-}
+    text-decoration: none;}
+
+.profile_image{border-radius: 80%;}
+
 .profile_image:hover{
     cursor: pointer;
-    background-color: rgba(202, 187, 187, 0.177);
-}
+    background-color: rgba(202, 187, 187, 0.177);}
 
-#Details{
-    background-color: rgba(240, 255, 255, 0.495);
-}
+.Set{
+    text-align:left;
+    margin-left: 70px;}
+
+#Details{background-color: rgba(240, 255, 255, 0.495);}
+
+#Skills{text-align: left;}
+
+#Contacts{
+    text-align: left;
+    margin: 0;
+    overflow: hidden;
+    align-items: center;
+    width: auto;}
+
+#Certificates ul:hover{background-color: #23c7d2a4;}
 
 body{
     background : linear-gradient( to bottom, rgb(0, 255, 213),rgba(22, 103, 209, 0.8));
@@ -25,51 +35,26 @@ body{
     display: flex;
     flex-direction: column;
     align-items: left;
-    justify-content: left;   
-}
+    justify-content: left;}
 
-#Skills{
-    text-align: left;
-}
-
-.Set{
-    text-align:left;
-    margin-left: 70px;
-}
 li, ul{
     text-align: left;
-    margin-left: 100px;
+    margin-left: 100px;}
 
-}
-#Contacts{
-    text-align: left;
-    margin: 0;
-    overflow: hidden;
-    align-items: center;
-    width: auto;
-}
-
-#Certificates ul:hover{
-    background-color: #23c7d2a4;
-}
-
-div a {
+div a{
       display: inline-block;
       color: #333;
       text-align: center;
       /* padding: 5px 60px; */
       padding: 5px 70px;
-      text-decoration: none;
-    }
-    
-    div a:hover {
-      background-color: #23c7d2a4;
-    }
+      text-decoration: none;}
+
+div a:hover{background-color: #23c7d2a4;}
 
 img:hover{
     height: 450px;
-    width: 500px;
-}
+    width: 500px;}
+
 /* img { */
         /* transition: transform 0.3s; */
          /* Add smooth transition */
