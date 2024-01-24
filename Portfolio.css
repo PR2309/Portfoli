@@ -1,0 +1,81 @@
+
+*{
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.profile_image{
+    border-radius: 80%;
+}
+.profile_image:hover{
+    cursor: pointer;
+    background-color: rgba(202, 187, 187, 0.177);
+}
+
+#Details{
+    background-color: rgba(240, 255, 255, 0.495);
+}
+
+body{
+    background : linear-gradient( to bottom, rgb(0, 255, 213),rgba(22, 103, 209, 0.8));
+    width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;   
+}
+
+#Skills{
+    text-align: left;
+}
+
+.Set{
+    text-align:left;
+    margin-left: 70px;
+}
+li, ul{
+    text-align: left;
+    margin-left: 100px;
+
+}
+#Contacts{
+    text-align: left;
+    margin: 0;
+    overflow: hidden;
+    align-items: center;
+    width: auto;
+}
+
+#Certificates ul:hover{
+    background-color: #23c7d2a4;
+}
+
+div a {
+      display: inline-block;
+      color: #333;
+      text-align: center;
+      /* padding: 5px 60px; */
+      padding: 5px 70px;
+      text-decoration: none;
+    }
+    
+    div a:hover {
+      background-color: #23c7d2a4;
+    }
+
+img:hover{
+    height: 450px;
+    width: 500px;
+}
+/* img { */
+        /* transition: transform 0.3s; */
+         /* Add smooth transition */
+      /* } */
+  
+/* img:hover { */
+        /* transform: scale(1.5);  */
+        /* Adjust the scaling factor as needed */
+      /* } */
