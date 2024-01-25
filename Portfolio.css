@@ -5,6 +5,10 @@
     box-sizing: border-box;
     text-decoration: none;}
 
+.links:hover{
+    cursor: pointer;
+    background-color: #23c7d2a4;}
+
 .profile_image{border-radius: 80%;}
 
 .profile_image:hover{
@@ -26,8 +30,6 @@
     align-items: center;
     width: auto;}
 
-#Certificates ul:hover{background-color: #23c7d2a4;}
-
 body{
     background : linear-gradient( to bottom, rgb(0, 255, 213),rgba(22, 103, 209, 0.8));
     width: 80rem;
@@ -45,11 +47,8 @@ div a{
       display: inline-block;
       color: #333;
       text-align: center;
-      /* padding: 5px 60px; */
       padding: 5px 70px;
       text-decoration: none;}
-
-div a:hover{background-color: #23c7d2a4;}
 
 img:hover{
     height: 450px;
