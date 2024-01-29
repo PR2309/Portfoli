@@ -5,6 +5,16 @@
     box-sizing: border-box;
     text-decoration: none;}
 
+.headers{
+    text-decoration: none;
+    color: white;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 1.5s;}
+    
+.headers:hover{background-color: #2b2929e8;}
+
 .links:hover{
     cursor: pointer;
     background-color: #23c7d2a4;}
@@ -29,6 +39,15 @@
     overflow: hidden;
     align-items: center;
     width: auto;}
+
+header{
+    background-color: #333333c9;
+    color: white;
+    padding: 15px 20px;}
+
+header div{
+    display: flex;
+    justify-content: space-around;}
 
 body{
     background : linear-gradient( to bottom, rgb(0, 255, 213),rgba(22, 103, 209, 0.8));
