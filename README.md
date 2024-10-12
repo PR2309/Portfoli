@@ -3,7 +3,7 @@
 This project provides a CV created using only HTML and CSS. It features various sections, including certificate links, projects, contact information, and all necessary elements typically found in a CV.
 
 ## Live Link
-- **Portfolio:** [View Portfolio](https://github.com/PR2309/Portfolio)
+- **Portfolio:** [View Portfolio]( https://pr2309.github.io/Portfolio/)
 
 ## Development server
 
