@@ -15,14 +15,24 @@
     
 .headers:hover{background-color: #2b2929e8;}
 
+.s-links{
+    width:fit-content;
+    border-radius: 2rem;
+    padding-inline:0.6%;
+}
 .links:hover{
     cursor: pointer;
-    background-color: #23c7d2a4;}
+    background-color: #23c7d2a4;
+    font-style: italic;
+}
 
-.profile_image{border-radius: 80%;}
-
-.profile_image:hover{
+.profile_image{
+    border-radius: 80%;
+    transition: all 2s;
     cursor: pointer;
+}
+.profile_image:hover{
+    border-radius: none;
     background-color: rgba(202, 187, 187, 0.177);}
 
 .Set{
@@ -31,6 +41,13 @@
 
 #Details{background-color: rgba(240, 255, 255, 0.495);}
 
+summary{
+    max-width: fit-content;
+}
+summary:focus{
+    outline: none;
+}
+
 #Skills{text-align: left;}
 
 #Contacts{
@@ -38,7 +55,11 @@
     margin: 0;
     overflow: hidden;
     align-items: center;
-    width: auto;}
+    width: auto;
+}
+#Contacts>a{
+    font-style: normal!important;
+}
 
 header{
     background-color: #333333c9;
@@ -63,11 +84,11 @@ li, ul{
     margin-left: 100px;}
 
 div a{
-      display: inline-block;
-      color: #333;
-      text-align: center;
-      padding: 5px 70px;
-      text-decoration: none;}
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 5px 70px;
+    text-decoration: none;}
 
 img:hover{
     height: 450px;
@@ -77,8 +98,13 @@ img:hover{
         /* transition: transform 0.3s; */
          /* Add smooth transition */
       /* } */
-  
+
 /* img:hover { */
         /* transform: scale(1.5);  */
         /* Adjust the scaling factor as needed */
       /* } */
+
+.project-links{
+    display: inline-block;
+    padding: 0;
+}
